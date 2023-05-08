@@ -631,7 +631,10 @@ section {
 }
 
 @media (max-width: 365px) {
-
+        .logo{
+      font-size: 0.8rem;
+      font-weight: 500;
+    }
     .home-img img,
     .about-img img {
         width: 90vw;
