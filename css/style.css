@@ -631,6 +631,10 @@ section {
 }
 
 @media (max-width: 365px) {
+    .header{
+      padding-left: 0;
+      padding-right: 0;
+    }
         .logo{
       font-size: 0.8rem;
       font-weight: 500;
