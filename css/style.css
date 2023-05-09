@@ -650,6 +650,9 @@ section {
   .text1 {
     display: none;
   }
+    .text2 {
+    margin-top: 15px;
+    }
   .iam {
     display: block;
     margin-top: 10px;
