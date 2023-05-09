@@ -636,6 +636,9 @@ section {
     .about-img img {
         width: 90vw;
     }
+    .logo{
+        display: hidden;}
+    
 }
 
 
