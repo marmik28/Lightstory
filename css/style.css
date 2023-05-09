@@ -564,10 +564,6 @@ section {
         display: none;
     }
 
-    .checkbox-label{
-      margin-left: 0;
-    }
-
     .navbar.active {
         display: block;
     }
@@ -584,6 +580,10 @@ section {
 
     .home-content h3 {
         font-size: 2.6rem;
+    }
+
+    .text{
+      font-size: 2.6rem;
     }
 
     .home-content h1 {
@@ -604,9 +604,24 @@ section {
         margin-top: 4rem;
     }
 }
+
+@media (max-width: 580px) {
+    .portfolio-container {
+        grid-template-columns: 1fr;
+    }
+}
+
 @media (max-width: 450px) {
     html {
         font-size: 50%;
+    }
+
+    .homecontent h1{
+      margin-top: 15px;
+    }
+
+    .text{
+      width: 100%;
     }
 
     .contact form .input-box input {
@@ -621,23 +636,22 @@ section {
         text-align: center;
         margin-top: 2rem;
     }
-    .text1{
-      display: none;
-    }
 }
 
-@media (max-width: 370px) {
-    .text1{
-      display: none;
-    }
-    .home-img img,
-    .about-img img {
+@media (max-width: 365px) {
+
+  .homecontent h1{
+    margin-top: 15px;
+  }
+
+  .text{
+    width: 100%;
+  }
+
+    .home-img img, .about-img img {
         width: 90vw;
     }
-    
 }
-
-
 /* text */
 
 
