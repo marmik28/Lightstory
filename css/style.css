@@ -616,14 +616,6 @@ section {
         font-size: 50%;
     }
 
-    .homecontent h1{
-      margin-top: 15px;
-    }
-
-    .text{
-      width: 100%;
-    }
-
     .contact form .input-box input {
         width: 100%;
     }
@@ -638,15 +630,39 @@ section {
     }
 }
 
+/* Styles for mobile devices */
+@media (max-width: 767px) {
+  .home-content {
+    text-align: center;
+    padding: 30px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  h1 {
+    font-size: 36px;
+    margin-top: 10px;
+  }
+  .text {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  .text1 {
+    display: none;
+  }
+  .iam {
+    display: block;
+    margin-top: 10px;
+  }
+  .word {
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
+
 @media (max-width: 365px) {
 
-  .homecontent h1{
-    margin-top: 15px;
-  }
-
-  .text{
-    width: 100%;
-  }
 
     .home-img img, .about-img img {
         width: 90vw;
