@@ -551,6 +551,10 @@ section {
     #menu-icon {
         display: block;
     }
+    
+     .checkbox{
+      margin-left: 0;
+    }
 
     .navbar {
         position: absolute;
